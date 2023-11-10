@@ -1,0 +1,33 @@
+# Does and/or CAN the name be updated?
+name: flutter_bluetooth_serial_example
+version: 0.5.0
+description: Demonstrates how to use the `flutter_bluetooth_serial_ble` plugin.
+authors:
+  - Patryk Ludwikowski <patryk.ludwikowski.7@gmail.com>
+homepage: https://github.com/Erhannis/flutter_bluetooth_serial_ble/tree/master/example/
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.5+5
+  get: ^4.6.6
+  image: ^3.3.0
+  permission_handler: ^11.0.1
+
+  scoped_model: ^2.0.0-nullsafety.0
+  cupertino_icons: ^1.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_bluetooth_serial_ble:
+    path: ../
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
